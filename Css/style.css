@@ -116,4 +116,46 @@ p {
     padding: 2.5rem 0;
     text-align: center;
     transition: var(--transition);
+    margin: 0 auto;
+}
+.offer-fav {
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+    transition: var(--transition);
+    display: inline-block;
+    color: var(--clr-primary-light);
+}
+.offer-title {
+    color: #ee8d32;
+}
+.offer-text {
+    color:var(--primary-color);
+    max-width: 17rem;
+    margin:0 auto;
+}
+.offer:hover {
+    background-color: whitesmoke;
+    box-shadow: 0 2px --clr-grey-5;
+    color:coral;    
+}
+.offer:hover .offer-fav {
+    transform: translateY(-10px);
+}
+@media screen and (min-width:576px) {
+    .offer {
+        float: left;
+        width: 50%;
+    }
+}
+@media screen and (min-width:1000px) {
+    .offer {
+        float: left;
+        width: 25%;
+    }
+}
+
+.home {
+    color:#617d98;
+    margin-top: 1rem;
+    
 }
