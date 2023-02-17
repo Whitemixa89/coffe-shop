@@ -107,3 +107,13 @@ p {
     transition: all 0,5s;
     border-radius: 50%;
 }
+
+/* section skills */
+.allOffer {
+    background: var(--clr-grey-5);
+}
+.offer {
+    padding: 2.5rem 0;
+    text-align: center;
+    transition: var(--transition);
+}
