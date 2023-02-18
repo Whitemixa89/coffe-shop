@@ -188,6 +188,7 @@ p {
     }
     .about-info {
         padding-left: 2rem;
+        margin: 10px 10px;
     }
 }
 /* ======= End of about ====== */
